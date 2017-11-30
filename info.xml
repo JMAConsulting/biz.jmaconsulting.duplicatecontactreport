@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <extension key="biz.jmaconsulting.duplicatecontactreport" type="module">
   <file>duplicatecontactreport</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>Duplicate Contacts Report</name>
+  <description>Report that displays duplicate contacts</description>
   <license>AGPL-3.0</license>
   <maintainer>
-    <author>Pradeep Nayak</author>
-    <email>pradpnayak@gmail.com</email>
+    <author>JMA Consulting</author>
+    <email>support@jmaconsulting.biz</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/JMAConsulting/biz.jmaconsulting.duplicatecontactreport</url>
+    <url desc="Documentation">https://github.com/JMAConsulting/biz.jmaconsulting.duplicatecontactreport/blob/master/README.md</url>
+    <url desc="Support">https://github.com/JMAConsulting/biz.jmaconsulting.duplicatecontactreport</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2017-11-30</releaseDate>
@@ -20,7 +20,7 @@
   <compatibility>
     <ver>4.7</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments></comments>
   <civix>
     <namespace>CRM/Duplicatecontactreport</namespace>
   </civix>
