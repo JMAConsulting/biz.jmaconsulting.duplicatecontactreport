@@ -7,6 +7,7 @@ class CRM_Report_Form_Contact_DuplicateContact extends CRM_Report_Form {
    * Class constructor.
    */
   function __construct() {
+    $this->_exposeContactID = FALSE;
     $this->_columns = [
       'civicrm_contact' => [
         'dao' => 'CRM_Contact_DAO_Contact',
