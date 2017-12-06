@@ -4,15 +4,15 @@
 // database as appropriate. For more details, see "hook_civicrm_managed" at:
 // http://wiki.civicrm.org/confluence/display/CRMDOC42/Hook+Reference
 return array (
-  0 => 
+  0 =>
   array (
     'name' => 'CRM_Report_Form_Contact_DuplicateContact',
     'entity' => 'ReportTemplate',
-    'params' => 
+    'params' =>
     array (
       'version' => 3,
-      'label' => 'DuplicateContact',
-      'description' => 'DuplicateContact (biz.jmaconsulting.duplicatecontactreport)',
+      'label' => ts('Duplicate Contact'),
+      'description' => ts('Duplicate Contact (biz.jmaconsulting.duplicatecontactreport)'),
       'class_name' => 'CRM_Report_Form_Contact_DuplicateContact',
       'report_url' => 'contact/duplicatecontact',
       'component' => '',
